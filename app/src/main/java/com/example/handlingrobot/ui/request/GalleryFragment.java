@@ -130,7 +130,7 @@ public class GalleryFragment extends Fragment {
                 //show text for now
                 //need to get variable
 
-                Toast.makeText(getContext(), "Request Added!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Request has been Added!", Toast.LENGTH_SHORT).show();
                 //take to dashboard again
                 FragmentTransaction fr = getParentFragmentManager().beginTransaction();
                 fr.replace(R.id.nav_host_fragment, new HomeFragment());
